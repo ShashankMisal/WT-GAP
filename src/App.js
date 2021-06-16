@@ -13,7 +13,7 @@ function App() {
             <Homepage />
           </Route>
 
-          <Route path="/:subjectName" >
+          <Route path="/t/:subjectName" >
             <SubjectDetails />
           </Route>
 

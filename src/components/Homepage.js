@@ -37,7 +37,7 @@ function Homepage() {
                 {
                     subjects.map((subject, index) => {
                         return (
-                            <Link to={`/${subject.title}`} key={index}>
+                            <Link to={`/t/${subject.title}`} key={index}>
                                 <SubjectCard details={subject} />
                             </Link>
                         )
