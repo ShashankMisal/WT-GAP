@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/WT-GAP/static/css/main.cf3c57f1.chunk.css",
-    "main.js": "/WT-GAP/static/js/main.ba110449.chunk.js",
-    "main.js.map": "/WT-GAP/static/js/main.ba110449.chunk.js.map",
+    "main.js": "/WT-GAP/static/js/main.6d1decf0.chunk.js",
+    "main.js.map": "/WT-GAP/static/js/main.6d1decf0.chunk.js.map",
     "runtime-main.js": "/WT-GAP/static/js/runtime-main.f1991441.js",
     "runtime-main.js.map": "/WT-GAP/static/js/runtime-main.f1991441.js.map",
-    "static/js/2.e7b8a0c5.chunk.js": "/WT-GAP/static/js/2.e7b8a0c5.chunk.js",
-    "static/js/2.e7b8a0c5.chunk.js.map": "/WT-GAP/static/js/2.e7b8a0c5.chunk.js.map",
+    "static/js/2.dd6ee9f3.chunk.js": "/WT-GAP/static/js/2.dd6ee9f3.chunk.js",
+    "static/js/2.dd6ee9f3.chunk.js.map": "/WT-GAP/static/js/2.dd6ee9f3.chunk.js.map",
     "index.html": "/WT-GAP/index.html",
     "static/css/main.cf3c57f1.chunk.css.map": "/WT-GAP/static/css/main.cf3c57f1.chunk.css.map",
-    "static/js/2.e7b8a0c5.chunk.js.LICENSE.txt": "/WT-GAP/static/js/2.e7b8a0c5.chunk.js.LICENSE.txt"
+    "static/js/2.dd6ee9f3.chunk.js.LICENSE.txt": "/WT-GAP/static/js/2.dd6ee9f3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f1991441.js",
-    "static/js/2.e7b8a0c5.chunk.js",
+    "static/js/2.dd6ee9f3.chunk.js",
     "static/css/main.cf3c57f1.chunk.css",
-    "static/js/main.ba110449.chunk.js"
+    "static/js/main.6d1decf0.chunk.js"
   ]
 }
