@@ -4,13 +4,14 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import SubjectCard from './SubjectCard'
-import { Link } from "react-router-dom";
+import { Link , useRouteMatch} from "react-router-dom";
 import MenuBookIcon from '@material-ui/icons/MenuBook';
 import LinkExternal from "@material-ui/core/Link";
 
 
 
 function Homepage() {
+    const {url} = useRouteMatch();
     return (
         <div>
             <CssBaseline />

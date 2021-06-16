@@ -9,13 +9,13 @@ function App() {
     <div className="App">
       <Container maxWidth="sm">
        
+          <Route exact path="/" >
             <Homepage />
-          {/* <Route exact path="/" >
-          </Route> */}
+          </Route>
 
-          {/* <Route path="/:subjectName" >
+          <Route path="/:subjectName" >
             <SubjectDetails />
-          </Route> */}
+          </Route>
 
         
       </Container>
