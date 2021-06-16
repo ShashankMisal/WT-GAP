@@ -17,10 +17,14 @@ function SubjectDetails() {
     const getData = (subjectName) => {
         switch (subjectName) {
             case 'WT': return WT;
+                        
             case 'SPOS': return SPOS;
+                        
             case 'ESIOT': return ESIOT;
+                        
             case 'SMD': return SMD;
-            default: return ""
+                    
+            default: return []
         }
     }
 
@@ -30,7 +34,7 @@ function SubjectDetails() {
                 <Paper style={{ textAlign: "center", marginTop: "15px", padding: "10px" }}>
                     {subjectName}
                 </Paper>
-                <TimelineComponent data={getData(subjectName)} subjectName={subjectName} />
+                <TimelineComponent data={getData(subjectName)} />
             </Container>
         </div>
     )

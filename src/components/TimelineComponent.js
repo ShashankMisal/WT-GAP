@@ -23,14 +23,14 @@ const useStyles = makeStyles({
 
 
 
-function TimelineComponent({ data, subjectName }) {
+function TimelineComponent({ data }) {
     const classes = useStyles();
 
     return (
         <div>
             <Timeline align="alternate">
                 {
-                    data.map((value, index) => {
+                    data?.map((value, index) => {
                         return (
 
                             <TimelineItem key={value.id}>
