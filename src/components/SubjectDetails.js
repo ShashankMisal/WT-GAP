@@ -13,7 +13,7 @@ import { Paper } from '@material-ui/core';
 
 function SubjectDetails() {
     const { subjectName } = useParams()
-    const [data,setData] = React.useState(WT)
+    const [data,setData] = React.useState([])
 
     React.useEffect(()=>{
         if(subjectName === "WT" )
