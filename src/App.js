@@ -9,11 +9,11 @@ function App() {
     <div className="App">
       <Container maxWidth="sm">
        
-          <Route exact path="/" >
+          <Route exact path="/WT-GAP" >
             <Homepage />
           </Route>
 
-          <Route path="/t/:subjectName" >
+          <Route path="/WT-GAP/:subjectName" >
             <SubjectDetails />
           </Route>
 

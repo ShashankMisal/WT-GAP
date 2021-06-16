@@ -34,7 +34,7 @@ function Homepage() {
                 {
                     subjects.map((subject, index) => {
                         return (
-                            <Link to={`/t/${subject.title}`} key={index}>
+                            <Link to={`/WT-GAP/${subject.title}`} key={index}>
                                 <SubjectCard details={subject} />
                             </Link>
                         )
