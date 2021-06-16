@@ -13,20 +13,20 @@ import { Paper } from '@material-ui/core';
 
 function SubjectDetails() {
     const { subjectName } = useParams()
+    const [data,setData] = React.useState(WT)
 
-    const getData = (subjectName) => {
-
-            if(subjectName === "WT" )
-                return WT
+    React.useEffect(()=>{
+        if(subjectName === "WT" )
+            setData(WT)
             else if(subjectName === "SPOS")
-                return SPOS
+            setData(SPOS)
             else if(subjectName === "ESIOT")
-                return ESIOT
+            setData(ESIOT)
             else if(subjectName === "SMD")  
-                return SMD
-            else return []
-        
-    }
+            setData(SMD)
+    },[subjectName])
+
+   
 
     return (
         <div>
@@ -34,7 +34,7 @@ function SubjectDetails() {
                 <Paper style={{ textAlign: "center", marginTop: "15px", padding: "10px" }}>
                     {subjectName}
                 </Paper>
-                <TimelineComponent data={getData(subjectName)} />
+                <TimelineComponent data={data} />
             </Container>
         </div>
     )
