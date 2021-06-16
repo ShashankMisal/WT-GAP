@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Container maxWidth="sm">
-        <Switch>
+       
           <Route exact path="/" >
             <Homepage />
           </Route>
@@ -17,7 +17,7 @@ function App() {
             <SubjectDetails />
           </Route>
 
-        </Switch>
+        
       </Container>
     </div>
   );
