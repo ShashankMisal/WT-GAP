@@ -15,17 +15,17 @@ function SubjectDetails() {
     const { subjectName } = useParams()
 
     const getData = (subjectName) => {
-        switch (subjectName) {
-            case 'WT': return WT;
-                        
-            case 'SPOS': return SPOS;
-                        
-            case 'ESIOT': return ESIOT;
-                        
-            case 'SMD': return SMD;
-                    
-            default: return []
-        }
+
+            if(subjectName === "WT" )
+                return WT
+            else if(subjectName === "SPOS")
+                return SPOS
+            else if(subjectName === "ESIOT")
+                return ESIOT
+            else if(subjectName === "SMD")  
+                return SMD
+            else return []
+        
     }
 
     return (
