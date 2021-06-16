@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Container maxWidth="sm">
         <Switch>
-          <Route path="/" exact>
+          <Route exact path="/" >
             <Homepage />
           </Route>
 
