@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import SubjectCard from './SubjectCard'
 import { Link , useRouteMatch} from "react-router-dom";
 import MenuBookIcon from '@material-ui/icons/MenuBook';
-
+import ExternalLink from '@material-ui/core/Link'
 
 
 function Homepage() {
@@ -16,11 +16,13 @@ function Homepage() {
             <CssBaseline />
             <br></br>
             <Container maxWidth="sm">
+            <ExternalLink href="https://www.linkedin.com/in/shashank-misal-8018b419a/" color="inherit" underline="none">
                     <Typography component="h3"
                         variant="h3" align="center"
                         gutterBottom>
                         WT-GAP
                     </Typography>
+                </ExternalLink>
                 <br />
                 <Typography component="h4"
                     variant="h4" align="center"

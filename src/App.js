@@ -7,7 +7,7 @@ import SubjectDetails from './components/SubjectDetails';
 function App() {
   return (
     <div className="App">
-      <Container maxWidth="sm">
+      <Container maxWidth="sm"  >
        
           <Route exact path="/WT-GAP" >
             <Homepage />
